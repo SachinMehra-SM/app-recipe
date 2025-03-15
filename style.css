@@ -17,14 +17,19 @@
 }
 
 @font-face {
-    font-family:"outfit" ;
+    font-family:"young-serif" ;
     src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+
+}
+@font-face {
+    font-family:"outfit" ;
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
 body{
     background-color: var(--eggshell);
     color:var(--wenge-brown);
-    font-family:'outfit','sans-serif';
+   
     line-height: 1.4;
     display:grid;
     place-content: center;
@@ -36,7 +41,7 @@ img{
 }
 
 h1, h2{
-    font-family: 'outfit''serif';
+    font-family:"young-serif" ;
     font-weight: 400;
 }
 
@@ -106,12 +111,16 @@ hr{
 
 .description{
     margin: 1.5rem 0;
+    font-family:"outfit" ;
+    font-weight: 500;
+
 }
 
 .recipe-prep-time{
     background-color: var(--rose-white);
     padding: 1.25rem;
     border-radius: 1rem;
+    font-family:"outfit" ;
 }
 
 .recipe-prep-time h3{
@@ -121,11 +130,22 @@ hr{
 
 .recipe-prep-time ul li::marker{
     color:var(--dark-raspberry);
+    font-weight: 500;
+}
+
+.ingredients{
+    font-family:"outfit" ;
+    
 }
 
 
 .ingredients li span{
-    font-weight: initial;
+    font-weight: 500;
+}
+
+.instructions{
+    font-family:"outfit" ; 
+    font-weight: 500;
 }
 
 .instructions .item{
@@ -142,6 +162,11 @@ hr{
 
 .instructions .item p span{
     font-weight: 700;
+}
+
+.nutrition_step p {
+    font-family:"outfit" ; 
+    font-weight: 500; 
 }
 
 .nutrition_step .values{
