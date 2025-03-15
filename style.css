@@ -112,7 +112,7 @@ hr{
 .description{
     margin: 1.5rem 0;
     font-family:"outfit" ;
-    font-weight: 500;
+    font-weight: 400;
 
 }
 
@@ -140,12 +140,12 @@ hr{
 
 
 .ingredients li span{
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .instructions{
     font-family:"outfit" ; 
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .instructions .item{
@@ -166,7 +166,7 @@ hr{
 
 .nutrition_step p {
     font-family:"outfit" ; 
-    font-weight: 500; 
+    font-weight: 400; 
 }
 
 .nutrition_step .values{
